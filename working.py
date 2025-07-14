@@ -8,12 +8,12 @@ AU = 1.496e11  # 1 Astronomical Unit in meters
 YEAR = 3.154e7 # seconds
 
 #   Initial conditions
-TIME_MAX = 52*YEAR
+TIME_MAX = 24*YEAR
 TIME_STEP = 12000
 # Masses
-MASS_S = 2.989e30
-MASS_A = 27.972e24
-MASS_B = 2.3477e28
+MASS_S = 2.99e30
+MASS_A = 27.9e24
+MASS_B = 2.35e28
 # Radii
 RAD_S = 9e8
 RAD_A = 5e6
@@ -24,8 +24,8 @@ P_A = np.array([ 5*AU , 0.0 ])
 P_B = np.array([ -AU , AU*.7 ])
 # Velocities
 V_S = np.array([ 0.0 , 0.0 ])
-V_A = np.array([ 0.0 , -16.78e3 ])
-V_B = np.array([ 0.0 , -39.78e3 ])
+V_A = np.array([ 0.0 , -16.8e3 ])
+V_B = np.array([ 0.0 , -39.5e3 ])
 
 initial_state = [P_S, P_A, P_B, V_S, V_A, V_B]
 
